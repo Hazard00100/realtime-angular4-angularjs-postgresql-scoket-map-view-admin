@@ -1,25 +1,26 @@
 # Real-time Maps
 
 ## This project demo about agularJS4, google map and show up place real-time for users.
+
  ```javascript
 Frontend: AngularJS 4, Bootstrap4, Google map API, Socket.io Client
  ````
  ```javascript
 Backend: ExpressJS, Jwt auth, Socket.io, knexJs, PostgreSQL
   ````
- ```apple js
-NodeJS version v6.11.0 (using nvm for easing setup)
- ``` 
+  
 ***Set up this project***
  ```sh
      1. Clone the project from Github
         - git clone git@github.com:tpt22133/realtime-angular4-angularjs-postgresql-scoket-map-view-admin.git
     
      2. Move to the api folder
+        - NodeJS version v8.9.0 (using nvm for easing setup)
         - npm i
         - npm start
      
      3. Move to the web folder
+        - NodeJS version v6.11.0 (using nvm for easing setup)
         - cd .. && cd web
         - npm i
         - npm start
@@ -28,6 +29,7 @@ NodeJS version v6.11.0 (using nvm for easing setup)
         - Typing url: http://localhost:4200
         
  ```
+ 
  ***Demo Images***
 
  ![Alt text](https://preview.ibb.co/dcxH0y/Screen_Shot_2018_06_02_at_1_09_57_AM.png?raw=true "")
