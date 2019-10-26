@@ -1,7 +1,7 @@
 const config = require('../knexfile.js');
 const knex = require('knex')(config['development']);
 
-knex.migrate.latest(['development']).then(async () => {
+/*knex.migrate.latest(['development']).then(async () => {
   await knex('typeOfPlace').insert([
     {id: 1, name: 'hospital'},
     {id: 2, name: 'school'},
@@ -14,6 +14,6 @@ knex.migrate.latest(['development']).then(async () => {
     {id: 2, name: 'pending'},
     {id: 3, name: 'deny'}
   ]);
-});
+});*/
 
 module.exports = knex;

@@ -18,7 +18,7 @@ Backend: ExpressJS, Jwt auth, Socket.io, knexJs, PostgreSQL
         - NodeJS version v8.9.0 (using nvm for easing setup)
         - npm i
         - npm start
-     
+                  
      3. Move to the web folder
         - NodeJS version v6.11.0 (using nvm for easing setup)
         - cd .. && cd web
@@ -29,6 +29,13 @@ Backend: ExpressJS, Jwt auth, Socket.io, knexJs, PostgreSQL
         - Typing url: http://localhost:4200
         
  ```
+ 
+ ```sh
+     https://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/
+     sudo -u tranthanh psql postgres 
+     CREATE USER postgres SUPERUSER;
+     CREATE DATABASE gwk WITH OWNER postgres;
+```
  
  ***Demo Images***
 
