@@ -32,7 +32,7 @@ Backend: ExpressJS, Jwt auth, Socket.io, knexJs, PostgreSQL
  
  ```sh
      https://www.moncefbelyamani.com/how-to-install-postgresql-on-a-mac-with-homebrew-and-lunchy/
-     sudo -u tranthanh psql postgres 
+     sudo -u username psql postgres 
      CREATE USER postgres SUPERUSER;
      CREATE DATABASE gwk WITH OWNER postgres;
 ```
